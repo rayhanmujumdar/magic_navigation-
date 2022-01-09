@@ -23,7 +23,7 @@ allitem.classList.remove('active'))
 this.classList.add('active');
 }
 list.forEach((allitem)=>
-allitem.addEventListener('scroll',magic));
+allitem.addEventListener('mouseover',magic));
 // click toggle add javascript
 
 let btn = document.querySelector('.btn');
